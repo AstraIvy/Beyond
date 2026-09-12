@@ -1,0 +1,15 @@
+{
+  "itemgroup.beyond.beyond": "Beyond",
+  "item.beyond.astra_scythe": "Astra Scythe",
+  "block.beyond.cosmilite_bricks": "Cosmilite Bricks",
+
+
+
+  "block.beyond.celestial_log": "§dCelestial Log§r",
+  "block.beyond.celestial_wood": "§dCelestial Wood§r",
+  "block.beyond.stripped_celestial_log": "§dStripped Celestial Log§r",
+  "block.beyond.stripped_celestial_wood": "§dStripped Celestial Log§r",
+  "block.beyond.celestial_planks": "§dCelestial Planks§r",
+  "block.beyond.celestial_leaves": "§dCelestial Leaves§r",
+  "block.beyond.celestial_sapling": "§dCelestial Sapling§r"
+}

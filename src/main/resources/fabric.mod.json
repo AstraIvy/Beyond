@@ -1,0 +1,37 @@
+{
+	"schemaVersion": 1,
+	"id": "beyond",
+	"version": "${version}",
+	"name": "Beyond",
+	"description": "Beyond this world",
+	"authors": [
+		"AstraIvy"
+	],
+	"contact": {
+		"homepage": "https://fabricmc.net/",
+		"sources": "https://github.com/FabricMC/fabric-example-mod"
+	},
+	"license": "MIT",
+	"icon": "assets/beyond/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"net.astraivy.beyond.Beyond"
+		],
+		"fabric-datagen": [
+			"net.astraivy.beyond.BeyondDataGenerator"
+		],
+		"client": [
+			"net.astraivy.beyond.BeyondClient"
+		]
+	},
+	"mixins": [
+		"beyond.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.19.5",
+		"minecraft": "~1.21.1",
+		"java": ">=21",
+		"fabric-api": "*"
+	}
+}
