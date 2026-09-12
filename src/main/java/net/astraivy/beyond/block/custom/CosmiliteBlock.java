@@ -24,7 +24,7 @@ public class CosmiliteBlock extends Block {
     }
 
     public void randomDisplayTick(BlockState state, World world, BlockPos pos, Random random) {
-        if (random.nextInt(5) == 0) {
+        if (random.nextInt(3) == 0) {
             Direction direction = Direction.random(random);
                 BlockPos blockPos = pos.offset(direction);
                 BlockState blockState = world.getBlockState(blockPos);
