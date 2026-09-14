@@ -1,11 +1,10 @@
 package net.astraivy.beyond;
 
-import net.astraivy.beyond.datagen.ModLootTableProvider;
-import net.astraivy.beyond.world.ModConfiguredFeatures;
-import net.astraivy.beyond.world.ModPlacedFeatures;
+import net.astraivy.beyond.common.datagen.*;
+import net.astraivy.beyond.common.world.ModConfiguredFeatures;
+import net.astraivy.beyond.common.world.ModPlacedFeatures;
 import net.fabricmc.fabric.api.datagen.v1.DataGeneratorEntrypoint;
 import net.fabricmc.fabric.api.datagen.v1.FabricDataGenerator;
-import net.astraivy.beyond.datagen.ModModelProvider;
 import net.minecraft.registry.RegistryBuilder;
 import net.minecraft.registry.RegistryKeys;
 
@@ -15,6 +14,10 @@ public class BeyondDataGenerator implements DataGeneratorEntrypoint {
 		FabricDataGenerator.Pack pack = fabricDataGenerator.createPack();
 		pack.addProvider(ModModelProvider::new);
 		pack.addProvider(ModLootTableProvider::new);
+		pack.addProvider(ModBlockTagProvider::new);
+		pack.addProvider(ModRegistryDataGenerator::new);
+		pack.addProvider(ModItemTagProvider::new);
+		pack.addProvider(ModRecipeProvider::new);
 	}
 
 

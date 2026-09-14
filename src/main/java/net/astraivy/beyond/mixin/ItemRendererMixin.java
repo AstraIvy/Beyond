@@ -2,7 +2,7 @@ package net.astraivy.beyond.mixin;
 
 import com.llamalad7.mixinextras.sugar.Local;
 import net.astraivy.beyond.Beyond;
-import net.astraivy.beyond.item.ModItems;
+import net.astraivy.beyond.common.item.ModItems;
 import net.minecraft.client.render.item.ItemModels;
 import net.minecraft.client.render.item.ItemRenderer;
 import net.minecraft.client.render.model.BakedModel;

@@ -1,9 +1,8 @@
-// 1.21.1	2026-09-12T13:20:47.1718321	Beyond/Block Loot Tables
+// 1.21.1	2026-09-14T12:27:35.5311236	Beyond/Block Loot Tables
+4cfd9883825d4aef842541518c246e031d7ac787 data\beyond\loot_table\blocks\forgiving_lamp.json
 b01c1565e9a817b9fbf5e9f85cb62d5a6447cfd1 data\beyond\loot_table\blocks\celestial_wood.json
-fe98581a748ffde57cbd1ea8563d6fc67cd998f6 data\beyond\loot_table\blocks\stripped_celestial_wood.json
-6c2f5b91182b5ff488b3124acdf2470ecd905df4 data\beyond\loot_table\blocks\celestial_leaves.json
+d5cdde100f2927570a3b3a445139c88239d508a7 data\beyond\loot_table\blocks\celestial_leaves.json
 10df698ea8da1c33def8379726ad3994a0e6dfe0 data\beyond\loot_table\blocks\cosmilite_bricks.json
 0e3b04d8b8157bbdda922c90dc6ceec2cf180fce data\beyond\loot_table\blocks\celestial_planks.json
 27906c9cc5ad98ab5aae0458e2b1372a377b9043 data\beyond\loot_table\blocks\celestial_log.json
-6234afb67bc5ad8eeeed0535822b9cba2e9de149 data\beyond\loot_table\blocks\stripped_celestial_log.json
 14609a4f6d92c09910c94eea2d93bb48533d4e62 data\beyond\loot_table\blocks\celestial_sapling.json
