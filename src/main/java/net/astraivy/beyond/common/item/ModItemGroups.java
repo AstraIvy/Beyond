@@ -18,14 +18,11 @@ public class ModItemGroups {
                     .entries((displayContext, entries) -> {
                         entries.add(ModItems.ASTRA_SCYTHE);
                         entries.add(ModItems.ESSENCE);
-                        entries.add(ModBlocks.COSMILITE_BRICKS);
 
                         entries.add(ModBlocks.CELESTIAL_LOG);
-                        entries.add(ModBlocks.CELESTIAL_WOOD);
                         entries.add(ModBlocks.CELESTIAL_PLANKS);
                         entries.add(ModBlocks.CELESTIAL_LEAVES);
                         entries.add(ModBlocks.CELESTIAL_SAPLING);
-                        entries.add(ModBlocks.FORGIVING_LAMP);
                     }).build());
 
 

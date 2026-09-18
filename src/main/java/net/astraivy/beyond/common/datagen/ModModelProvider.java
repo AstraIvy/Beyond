@@ -23,8 +23,6 @@ public class ModModelProvider extends FabricModelProvider {
         blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.CELESTIAL_PLANKS);
         blockStateModelGenerator.registerSingleton(ModBlocks.CELESTIAL_LEAVES, TexturedModel.LEAVES);
         blockStateModelGenerator.registerTintableCrossBlockState(ModBlocks.CELESTIAL_SAPLING, BlockStateModelGenerator.TintType.NOT_TINTED);
-
-        blockStateModelGenerator.registerNorthDefaultHorizontalRotation(ModBlocks.FORGIVING_LAMP);
     }
 
     @Override

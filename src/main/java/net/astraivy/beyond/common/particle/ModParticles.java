@@ -12,8 +12,6 @@ public class ModParticles {
             registerParticle("stardust", FabricParticleTypes.simple());
     public static final SimpleParticleType CELESTIAL_LEAVES_PARTICLE =
             registerParticle("celestial_leaves", FabricParticleTypes.simple());
-    public static final SimpleParticleType FORGIVING_LAMP_LIGHT_PARTICLE =
-            registerParticle("forgiving_lamp", FabricParticleTypes.simple());
 
     private static SimpleParticleType registerParticle(String name, SimpleParticleType particleType) {
         return Registry.register(Registries.PARTICLE_TYPE, Identifier.of(Beyond.MOD_ID, name), particleType);

@@ -32,7 +32,6 @@ public class ModLootTableProvider extends FabricBlockLootTableProvider {
         addDrop(ModBlocks.CELESTIAL_PLANKS);
         addDrop(ModBlocks.CELESTIAL_SAPLING);
         addDrop(ModBlocks.CELESTIAL_LEAVES, leavesDrops(ModBlocks.CELESTIAL_LEAVES, ModBlocks.CELESTIAL_SAPLING, 0.0325f));
-        addDrop(ModBlocks.FORGIVING_LAMP);
     }
 
     public LootTable.Builder multipleOreDrops(Block drop, Item item, float minDrops, float maxDrops) {

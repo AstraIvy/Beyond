@@ -1,4 +1,4 @@
-// 1.21.1	2026-09-14T12:27:35.5331165	Beyond/Model Definitions
+// 1.21.1	2026-09-15T19:05:56.7530052	Beyond/Model Definitions
 4566fbd63aacf16764b0496efc2e9365c98d11af assets\beyond\models\item\essence.json
 1723cbe44de2b54e202465e02a6a4679a7ff0c39 assets\beyond\models\block\celestial_wood.json
 2f54c77f3245c40fa1d2e1ca8440257253a1e9a0 assets\beyond\models\block\cosmilite_bricks.json
@@ -10,10 +10,8 @@ a9fb5165bf429f1e0d7dd2ff9cf295a0584c4093 assets\beyond\models\block\celestial_sa
 5f14c1084262b2ae46c31de5e35e21c8991b030f assets\beyond\models\block\celestial_leaves.json
 2148bedb0625cf215fabc3496a5da36699ad55fb assets\beyond\models\item\cosmilite_bricks.json
 9f57e58b442f79f5a2ffcc7a15e33ededb4ffaa9 assets\beyond\models\item\celestial_log.json
-17986ab06ace5445f2bcf341e408db672b272bc5 assets\beyond\blockstates\forgiving_lamp.json
 a45cba743c262f662a330d5413b49c815e44afdd assets\beyond\blockstates\celestial_leaves.json
 5dcda611cd58664ec128916b5c21b5ac046d7f63 assets\beyond\models\block\celestial_log_horizontal.json
-d9ecb42eb79c66705664ce3d0a6e0d8b71ea6698 assets\beyond\models\item\forgiving_lamp.json
 3b8b7789bfe38866a79e0ff3b90de7be9e764954 assets\beyond\models\block\celestial_planks.json
 e33618cef58dd6df604ad911720a63ee2a3aa02c assets\beyond\blockstates\celestial_log.json
 18415d450bcfe7d8a94303f45c0d45b975b61acc assets\beyond\models\item\celestial_planks.json

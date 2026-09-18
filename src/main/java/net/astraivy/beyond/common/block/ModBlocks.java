@@ -3,7 +3,6 @@ package net.astraivy.beyond.common.block;
 import net.astraivy.beyond.Beyond;
 import net.astraivy.beyond.common.block.custom.CelestialLeavesBlock;
 import net.astraivy.beyond.common.block.custom.CosmiliteBlock;
-import net.astraivy.beyond.common.block.custom.ForgivingLampBlock;
 import net.astraivy.beyond.common.world.tree.ModSaplingGenerators;
 import net.minecraft.block.*;
 import net.minecraft.item.BlockItem;
@@ -30,9 +29,6 @@ public class ModBlocks {
 
     public static final Block CELESTIAL_SAPLING = registerBlock("celestial_sapling",
             new SaplingBlock(ModSaplingGenerators.CELESTIAL_TREE, AbstractBlock.Settings.copy(Blocks.CHERRY_SAPLING)));
-
-    public static final Block FORGIVING_LAMP = registerBlock("forgiving_lamp",
-            new ForgivingLampBlock(AbstractBlock.Settings.create().sounds(BlockSoundGroup.LANTERN).nonOpaque().luminance(state -> 15)));
 
 
     private static Block registerBlock(String name, Block block) {
